@@ -1,0 +1,40 @@
+.site-header-wrap {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 12px;
+  box-sizing: border-box;
+
+  .site-header-phone {
+    width: auto;
+    height: 100%;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    color: $fontColor;
+  }
+
+  .site-header-email {
+    width: auto;
+    height: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    color: $fontColor;
+  }
+
+  .site-language-wrap {
+    margin-left: 12px;
+    display: flex;
+
+    .language-item {
+      margin-right: 4px;
+      cursor: pointer;
+
+      &:hover {
+        color: $fontColor;
+      }
+    }
+  }
+}
