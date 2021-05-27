@@ -3,6 +3,8 @@
     <SiteHeader />
     <Header />
     <router-view />
+    <Footer />
+    <SiteFooter />
   </div>
 </template>
 
@@ -10,13 +12,17 @@
 // @ is an alias to /src
 import SiteHeader from '@/components/site-header'
 import Header from '@/components/header'
+import SiteFooter from '@/components/site-footer'
+import Footer from '@/components/footer'
 
 export default {
   name: 'Home',
 
   components: {
     SiteHeader,
-    Header
+    Header,
+    Footer,
+    SiteFooter
   }
 }
 </script>

@@ -1,0 +1,20 @@
+.ouji-footer {
+  width: 100%;
+  height: auto;
+  background: $fontColor;
+  position: relative;
+  padding: 20px 0 20px 20%;
+  box-sizing: border-box;
+
+  .footer-info-wrap {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 20px;
+
+    li {
+      width: 100%;
+      height: 40px;
+    }
+  }
+}

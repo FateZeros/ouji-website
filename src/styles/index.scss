@@ -18,3 +18,27 @@ ol {
     list-style: none;
   }
 }
+
+img {
+  border-radius: 5px;
+}
+
+button {
+  outline: none !important;
+}
+
+input,
+textarea {
+  width: 100%;
+  height: auto;
+  border: none;
+  resize: none;
+
+  &:focus {
+    outline: none;
+
+    &::-webkit-input-placeholder {
+      color: transparent;
+    }
+  }
+}
