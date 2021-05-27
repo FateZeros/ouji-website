@@ -1,5 +1,5 @@
 // 电话1
-export const WEBSITE_PHONE1 = '2832-3212'
+export const WEBSITE_PHONE1 = '3069-6980'
 
 // 电邮
-export const WEBSITE_EMAIL = '1214@qq.com'
+export const WEBSITE_EMAIL = 'hkoji907@hotmail.com'

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '@/views/Home.vue'
+import HomeLand from '@/views/land'
 
 Vue.use(VueRouter)
 
@@ -11,8 +12,31 @@ const routes = [
   },
   {
     path: '/home',
-    name: 'Home',
-    component: Home
+    name: 'home',
+    redirect: '/home/land',
+    component: Home,
+    children: [
+      {
+        path: '/home/land',
+        name: 'home-land',
+        component: HomeLand
+      },
+      {
+        path: '/company',
+        name: 'company',
+        component: () => import('@/views/company/index.vue')
+      },
+      {
+        path: '/service',
+        name: 'service',
+        component: () => import('@/views/service/index.vue')
+      },
+      {
+        path: '/contact',
+        name: 'contact',
+        component: () => import('@/views/contact/index.vue')
+      }
+    ]
   }
   // {
   //   path: '/about',

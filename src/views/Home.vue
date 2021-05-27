@@ -1,18 +1,22 @@
 <template>
   <div class="home">
     <SiteHeader />
+    <Header />
+    <router-view />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import SiteHeader from '@/components/site-header'
+import Header from '@/components/header'
 
 export default {
   name: 'Home',
 
   components: {
-    SiteHeader
+    SiteHeader,
+    Header
   }
 }
 </script>

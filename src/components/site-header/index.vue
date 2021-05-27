@@ -39,10 +39,10 @@ export default {
     return (
       <div class="site-header-wrap">
         <div class="site-header-phone">
-          {this.$t('siteHeader.phone')}: {WEBSITE_PHONE1}
+          {this.$t('app.phone')}: {WEBSITE_PHONE1}
         </div>
         <div class="site-header-email">
-          {this.$t('siteHeader.email')}: {WEBSITE_EMAIL}
+          {this.$t('app.email')}: {WEBSITE_EMAIL}
         </div>
         <ul class="site-language-wrap">
           {languagesArr.map(item => (
