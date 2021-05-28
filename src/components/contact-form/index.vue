@@ -1,4 +1,6 @@
 <script>
+import API from '@/apis'
+
 export default {
   name: 'contact-form',
 
@@ -11,7 +13,50 @@ export default {
     }
   },
 
-  methods: {},
+  methods: {
+    checkFormInfo(info) {
+      if (!info.name) {
+        alert('1')
+        return false
+      }
+      if (!info.phone) {
+        alert('2')
+        return false
+      }
+      if (!info.email) {
+        alert('3')
+        return false
+      }
+      if (!info.content) {
+        alert('4')
+        return false
+      }
+      return true
+    },
+
+    handleSubmitForm() {
+      const postData = {
+        name: this.formName,
+        phone: this.formPhone,
+        email: this.formEmail,
+        content: this.formContent
+      }
+      const isValid = this.checkFormInfo(postData)
+      if (isValid) {
+        API.sendEmail(postData)
+          .then(res => {
+            if (res.status === 200) {
+              console.log('提交成功')
+            } else {
+              console.log('提交失败')
+            }
+          })
+          .catch(() => {
+            console.log('提交失败')
+          })
+      }
+    }
+  },
 
   render() {
     return (
@@ -24,6 +69,7 @@ export default {
             maxLength={20}
             autocomplete="off"
             class="form-row-input"
+            type="text"
           />
         </div>
         <div class="form-row">
@@ -33,6 +79,7 @@ export default {
             maxLength={20}
             autocomplete="off"
             class="form-row-input"
+            type="text"
           />
         </div>
         <div class="form-row">
@@ -42,6 +89,7 @@ export default {
             maxLength={20}
             autocomplete="off"
             class="form-row-input"
+            type="text"
           />
         </div>
         <div class="form-row">
@@ -53,7 +101,13 @@ export default {
             maxLength={100}
             autocomplete="off"
             class="form-row-input"
+            type="text"
           />
+        </div>
+        <div class="form-row">
+          <div class="form-submit-btn" onClick={() => this.handleSubmitForm()}>
+            {this.$t('contactForm.contactBtn')}
+          </div>
         </div>
       </div>
     )
@@ -106,7 +160,21 @@ export default {
       height: 30px;
       margin-top: 10px;
       border-radius: 5px;
+      padding: 0 12px;
     }
+  }
+
+  .form-submit-btn {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin: 12px auto 0 auto;
+    border-radius: 15px;
+    background: $fontColor;
+    color: #fff;
   }
 }
 </style>

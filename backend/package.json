@@ -1,0 +1,17 @@
+{
+  "name": "ouji-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "FateZeros",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^10.0.0",
+    "koa2-cors": "^2.0.6",
+    "nodemailer": "^6.6.1",
+    "we-validator": "^2.1.14"
+  }
+}

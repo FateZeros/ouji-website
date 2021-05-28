@@ -2,7 +2,7 @@
 import { WEBSITE_PHONE1, WEBSITE_EMAIL } from '@/config'
 
 export default {
-  name: 'footer',
+  name: 'ouji-footer',
 
   render() {
     return (

@@ -30,6 +30,7 @@ export default {
   },
   contactForm: {
     title: '查詢表格',
-    queryContent: '查詢內容'
+    queryContent: '查詢內容',
+    contactBtn: '發送'
   }
 }

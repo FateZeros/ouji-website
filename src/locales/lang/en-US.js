@@ -29,6 +29,7 @@ export default {
   },
   contactForm: {
     title: 'Enquiry Form',
-    queryContent: 'Query Content'
+    queryContent: 'Query Content',
+    contactBtn: 'Send'
   }
 }

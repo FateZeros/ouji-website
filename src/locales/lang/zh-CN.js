@@ -29,6 +29,7 @@ export default {
   },
   contactForm: {
     title: '查询表格',
-    queryContent: '查询内容'
+    queryContent: '查询内容',
+    contactBtn: '发送'
   }
 }
