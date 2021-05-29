@@ -16,26 +16,32 @@ import landImg6 from '@/assets/home-land/home006.jpg'
 export const landBriefImgs = [
   {
     id: 1,
-    img: landImg1
+    img: landImg1,
+    routeName: 'service/hkCompany'
   },
   {
     id: 2,
-    img: landImg2
+    img: landImg2,
+    routeName: 'service/companySecret'
   },
   {
     id: 3,
-    img: landImg3
+    img: landImg3,
+    routeName: 'service/accountService'
   },
   {
     id: 4,
-    img: landImg4
+    img: landImg4,
+    routeName: 'service/auditArrange'
   },
   {
     id: 5,
-    img: landImg5
+    img: landImg5,
+    routeName: 'service/taxService'
   },
   {
     id: 6,
-    img: landImg6
+    img: landImg6,
+    routeName: 'contact'
   }
 ]

@@ -9,6 +9,14 @@ export default {
     ContactForm
   },
 
+  methods: {
+    handleRouteChange(routeName) {
+      this.$router.push({
+        name: routeName
+      })
+    }
+  },
+
   render() {
     return (
       <div class="home-land-wrap">
@@ -16,7 +24,11 @@ export default {
         <ul class="home-land-brief-wrap">
           {landBriefImgs.map(item => {
             return (
-              <li key={item.id} class="brief-item">
+              <li
+                key={item.id}
+                class="brief-item"
+                onClick={() => this.handleRouteChange(item.routeName)}
+              >
                 <img src={item.img} />
                 <div class="brief-word">
                   {this.$t(`homeLand.briefWord${item.id}`)}

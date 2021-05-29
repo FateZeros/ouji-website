@@ -1,8 +1,11 @@
 import axios from 'axios'
 
+const baseURL =
+  process.env.NODE_ENV === 'develop' ? '/CORS' : 'http://106.13.2.80:9999'
+
 // create an axios instance
 const service = axios.create({
-  // baseURL, // url = base url + request url
+  baseURL, // url = base url + request url
   // withCredentials: true, // send cookies when cross-domain requests
   timeout: 1000 * 15 // request timeout
 })
@@ -11,9 +14,6 @@ const service = axios.create({
 service.interceptors.request.use(
   config => {
     // do something before request is sent
-    // baseURL
-    config.baseURL = '/CORS'
-    // config.baseURL = 'http://106.13.2.80:9999'
     return config
   },
   error => {
