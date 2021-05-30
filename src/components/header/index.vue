@@ -37,6 +37,7 @@ export default {
   render() {
     return (
       <div class="header">
+        <div class="header-logo" />
         <ul class="header-menu-wrap">
           <li
             class={this.currentRouteName === 'home-land' && 'acitve-menu'}

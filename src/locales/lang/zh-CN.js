@@ -64,6 +64,44 @@ export default {
     pageTile: '联系我们'
   },
   hkCompany: {
-    pageTile: '成立香港有限公司'
+    pageTile: '成立香港有限公司',
+    tableTitle1: '服务(港币)',
+    tableTitle2: '服务费用(港币)',
+    tableTitle3: '政府费及其他杂费 (港币)',
+    tableTitle4: '合共 (港币)',
+    table1C1: '成立香港有限公司 (标准5-7个工作天)(包全套印章)',
+    table1C2: '430',
+    table1C3: '2,200',
+    table1C4: '2,650',
+    table2C1: '成立香港有限公司 (特快1个工作天)(包全套印章)',
+    table2C2: '430',
+    table2C3: '2,420',
+    table2C4: '2,850',
+    table3C1: '注册香港无限公司 (个人公司)(包全套印章)',
+    table3C2: '400',
+    table3C3: '500',
+    table3C4: '900',
+    table4C1: '注册香港无限公司 (合伙人公司)(包全套印章)',
+    table4C2: '400',
+    table4C3: '500',
+    table4C4: '900',
+    table5C1: '申请分行登记',
+    table5C2: '300/分行',
+    table5C3: '323/分行',
+    table5C4: '623',
+    content1Title: '公司秘书服务',
+    conten11: '呈报周年申报表'
+  },
+  accountService: {
+    pageTile: '会计服务'
+  },
+  companySecret: {
+    pageTile: '公司秘书服务'
+  },
+  auditArrage: {
+    pageTile: '审计安排'
+  },
+  taxService: {
+    pageTile: '报税服务'
   }
 }

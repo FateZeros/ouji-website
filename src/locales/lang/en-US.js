@@ -68,6 +68,48 @@ export default {
     pageTile: 'Contact US'
   },
   hkCompany: {
-    pageTile: 'Incorporation of Hong Kong Limited Company'
+    pageTile: 'Incorporation of Hong Kong Limited Company',
+    tableTitle1: 'Service (HKD)',
+    tableTitle2: 'Service fee (HKD)',
+    tableTitle3: 'Government fees and other miscellaneous fees (HKD)',
+    tableTitle4: 'Total (HKD)',
+    table1C1:
+      'Set up a Hong Kong limited company (standard 5-7 working days) (including a full set of seals)',
+    table1C2: '430',
+    table1C3: '2,200',
+    table1C4: '2,650',
+    table2C1:
+      'Set up a Hong Kong limited company (express 1 working day) (including a full set of seals)',
+    table2C2: '430',
+    table2C3: '2,420',
+    table2C4: '2,850',
+    table3C1:
+      'Registered Hong Kong Unlimited Company (Personal Company) (full set of seals included)',
+    table3C2: '400',
+    table3C3: '500',
+    table3C4: '900',
+    table4C1:
+      'Registered Hong Kong Unlimited Company (Partner Company) (with a full set of seals)',
+    table4C2: '400',
+    table4C3: '500',
+    table4C4: '900',
+    table5C1: 'Apply for branch registration',
+    table5C2: '300/branch',
+    table5C3: '323/branch',
+    table5C4: '623',
+    content1Title: 'Company Secretary Service',
+    conten11: 'Filing the annual return'
+  },
+  accountService: {
+    pageTile: 'Accounting services'
+  },
+  companySecret: {
+    pageTile: 'Company Secretary Service'
+  },
+  auditArrage: {
+    pageTile: 'Audit arrangements'
+  },
+  taxService: {
+    pageTile: 'Tax filing service'
   }
 }
