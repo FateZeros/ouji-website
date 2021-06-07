@@ -26,7 +26,9 @@ export default {
     briefWord3: '年審服務',
     briefWord4: '年審安排',
     briefWord5: '秘書服務',
-    briefWord6: '聯繫我們'
+    briefWord6: '聯繫我們',
+    title: '成立香港有限公司 $2,650 (全包連3個印章)',
+    title2: '年審安排低至$2,000起'
   },
   contactForm: {
     title: '查詢表格',

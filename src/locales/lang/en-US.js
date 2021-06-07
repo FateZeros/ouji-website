@@ -27,7 +27,10 @@ export default {
     briefWord3: 'Annual review service',
     briefWord4: 'Annual review arrangement',
     briefWord5: 'Secretarial service',
-    briefWord6: 'contact us'
+    briefWord6: 'contact us',
+    title:
+      'Set up a Hong Kong limited company $2,650 (all inclusive with 3 seals)',
+    title2: 'Annual review arrangements as low as $2,000'
   },
   contactForm: {
     title: 'Enquiry Form',

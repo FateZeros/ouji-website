@@ -20,7 +20,10 @@ export default {
   render() {
     return (
       <div class="home-land-wrap">
-        <div class="home-land-video" />
+        <div class="home-land-video">
+          <div class="home-land-title">{this.$t('homeLand.title')}</div>
+          <div class="home-land-title">{this.$t('homeLand.title2')}</div>
+        </div>
         <ul class="home-land-brief-wrap">
           {landBriefImgs.map(item => {
             return (
