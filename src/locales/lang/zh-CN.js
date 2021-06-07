@@ -15,16 +15,16 @@ export default {
   },
   siteFooter: {
     rights: '版权所有:',
-    rightsCompany: '欧记商务有限公司',
+    rightsCompany: '海铭国际',
     recordNumWord: '备案号：',
     recordNum: '粤ICP备案号 1213123'
   },
   homeLand: {
     briefWord1: '成立香港有限公司',
     briefWord2: '公司秘书服务',
-    briefWord3: '会计服务',
-    briefWord4: '审计安排',
-    briefWord5: '报税服务',
+    briefWord3: '年审服务',
+    briefWord4: '年审安排',
+    briefWord5: '秘书服务',
     briefWord6: '联系我们'
   },
   contactForm: {
@@ -93,15 +93,15 @@ export default {
     conten11: '呈报周年申报表'
   },
   accountService: {
-    pageTile: '会计服务'
+    pageTile: '年审服务'
   },
   companySecret: {
     pageTile: '公司秘书服务'
   },
   auditArrage: {
-    pageTile: '审计安排'
+    pageTile: '年审安排'
   },
   taxService: {
-    pageTile: '报税服务'
+    pageTile: '秘书服务'
   }
 }

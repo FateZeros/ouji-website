@@ -16,16 +16,16 @@ export default {
   },
   siteFooter: {
     rights: '版权所有:',
-    rightsCompany: '欧记商务有限公司',
+    rightsCompany: '海銘國際',
     recordNumWord: '备案号:',
     recordNum: '粤ICP备案号 1213123'
   },
   homeLand: {
     briefWord1: '成立香港有限公司',
     briefWord2: '公司秘書服務',
-    briefWord3: '會計服務',
-    briefWord4: '審計安排',
-    briefWord5: '報稅服務',
+    briefWord3: '年審服務',
+    briefWord4: '年審安排',
+    briefWord5: '秘書服務',
     briefWord6: '聯繫我們'
   },
   contactForm: {
@@ -94,15 +94,15 @@ export default {
     conten11: '呈報週年申報表'
   },
   accountService: {
-    pageTile: '會計服務'
+    pageTile: '年審服務'
   },
   companySecret: {
     pageTile: '公司秘書服務'
   },
   auditArrage: {
-    pageTile: '審計安排'
+    pageTile: '年審安排'
   },
   taxService: {
-    pageTile: '報稅服務'
+    pageTile: '秘書服務'
   }
 }

@@ -17,16 +17,16 @@ export default {
   },
   siteFooter: {
     rights: 'all rights reserved by',
-    rightsCompany: '欧记商务有限公司',
+    rightsCompany: 'Haiming International',
     recordNumWord: 'record number',
     recordNum: 'Guangdong ICP record number 1213123'
   },
   homeLand: {
     briefWord1: 'Incorporation of Hong Kong Limited Company',
     briefWord2: 'Company Secretary Service',
-    briefWord3: 'Accounting services',
-    briefWord4: 'Audit arrangements',
-    briefWord5: 'Tax filing service',
+    briefWord3: 'Annual review service',
+    briefWord4: 'Annual review arrangement',
+    briefWord5: 'Secretarial service',
     briefWord6: 'contact us'
   },
   contactForm: {
@@ -101,15 +101,15 @@ export default {
     conten11: 'Filing the annual return'
   },
   accountService: {
-    pageTile: 'Accounting services'
+    pageTile: 'Annual review service'
   },
   companySecret: {
     pageTile: 'Company Secretary Service'
   },
   auditArrage: {
-    pageTile: 'Audit arrangements'
+    pageTile: 'Annual review arrangement'
   },
   taxService: {
-    pageTile: 'Tax filing service'
+    pageTile: 'Secretarial service'
   }
 }
